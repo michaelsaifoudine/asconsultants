@@ -215,7 +215,7 @@ a.hvr-shutter-out-horizontal:hover:before,a.hvr-shutter-out-horizontal:focus:bef
 	font-size: 0.95em;
 	font-weight: 300;
 	border: none;
-	background: #ffbb42;
+	background: #143F85;
 	padding: 14px 0px;
 	width:19%;
 	outline: none;
@@ -404,7 +404,7 @@ i.s6 {
 	vertical-align: top;
 }
 .price-section-grid h3 {
-	color:#ffbb42;
+	color:#143F85;
 	font-family: 'Lato', sans-serif;
 	font-size:3.5em;
 	font-weight:700;
@@ -434,7 +434,7 @@ i.s6 {
 	font-family: 'Lato', sans-serif;
 	font-size:1.1em;
 	text-decoration:none;
-	background:#ffbb42;
+	background:#143F85;
 	text-transform:uppercase;
 	font-weight:400;
 	padding:11px 20px;
@@ -542,7 +542,7 @@ a.work {
 	font-family: 'Lato', sans-serif;
 	font-size: 1em;
 	text-decoration: none;
-	background: #ffbb42;
+	background: #143F85;
 	text-transform: uppercase;
 	font-weight: 400;
 	padding: 11px 23px;
@@ -809,7 +809,7 @@ i.done {
 	height: 48px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/up-arrow.png) no-repeat 8.8px 12px #ffbb42;
+	background: url(../images/up-arrow.png) no-repeat 8.8px 12px #143F85;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
