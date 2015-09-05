@@ -42,6 +42,10 @@ label{
   height: 6em;
 }
 
+.petit-spacer {
+	height:3em;
+}
+
 /*-----start-header----*/
 .header {
 	padding:2em 0;
@@ -551,6 +555,11 @@ a.work {
 a.work:hover {
 	background:#394b50;
 }
+
+aside.clients img {
+    margin: 50px auto;
+}
+
 .client {
 	float:left;
 	width: 25%;
@@ -626,15 +635,16 @@ img.closeq {
 }
 .contact-section {
 	padding: 5em 0 3em 0;
+	background:#143F85;
 }
 .contact-section-head h3 {
-	color: #394b50;
+	color: #fff;
 	font-size: 2.2em;
 	font-weight: 900;
 	text-transform: uppercase;
 }
 .contact-section-head p {
-	color: #394b50;
+	color: #fff;
 	font-size: 1.2em;
 	font-weight: 500;
 }
@@ -647,43 +657,7 @@ img.closeq {
 	outline: none;
 	background: #fff;
 }
-.form form li {
-	display:inline-block;
-}
-.form {
-	margin:3em 0 5em 0;
-}
-.form form li {
-	border-radius:3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-o-border-radius: 3px;
-	list-style: none;
-	float: left;
-	width: 35%;	
-	background: #fff;
-	margin-right:1em;
-	border:1px solid #cbcbcb;
-}
-.form form input[type="submit"] {
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1em;
-	font-weight: 300;
-	border: none;
-	background: #143F85;
-	padding: 14px 0px;
-	width: 19%;
-	outline: none;
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-o-border-radius: 4px;
-	-ms-border-radius: 4px;
-}
-.form form input[type="submit"]:hover {
-	background:#394b50;
-}
+
 .bottom-menu ul li {
 	display:inline-block;
 	margin:0 1em;
@@ -704,12 +678,12 @@ img.closeq {
 	background:#143F85;
 }
 .copyright p {
-	color:#ffffff;
+	color:#fff;
 	font-size:1.1em;
 	font-weight:400;
 }
 .copyright p a {
-	color:#ffffff;
+	color:#fff;
 }
 .social-icons i {
 	height: 25px;
@@ -798,14 +772,8 @@ i.done {
 	width: 19%;
 }
 .address {
-	background:#394b50;
-	border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	-ms-border-radius: 50%;
 	padding:5em;
-	margin-bottom:2em;
+	margin-bottom:0,5em;
 	position:relative;
 }
 .address h4 {
@@ -829,14 +797,7 @@ i.done {
 	display:block;
 	margin-top:0.8em;
 }
-span.locate {
-	position: absolute;
-	bottom: -17px;
-	left: 130px;
-}
-span.locate img {
-	width: 100%;
-}
+
 #toTop {
 	display: none;
 	text-decoration: none;
