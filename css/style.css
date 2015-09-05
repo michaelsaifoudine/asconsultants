@@ -53,9 +53,6 @@ label{
 .logo {
 	float:left;
 }
-.logo a {
-	display: block;
-}
 .top-menu {
 	float:right;
 }
@@ -1384,7 +1381,7 @@ i.done {
 }
 @media screen and (max-width: 480px){
 	.work-section-grid{
-		width:50%;
+		width:100%;
 	}
 	span.arrow2 {
 		display:none;
@@ -1408,7 +1405,7 @@ i.done {
 		margin-top:12px;
 	}
 	.logo {
-		width: 11%;
+		width: 50%;
 	}
 	.logo img {
 		width: 100%;
@@ -1589,7 +1586,7 @@ left: 118px;
 		margin-top: 9px;
 	}
 	.logo {
-		width: 15%;
+		width: 50%;
 	}
 	.icon {
 		width: 24%;
